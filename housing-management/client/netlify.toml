@@ -1,0 +1,7 @@
+[build]
+  base = "client"  # אם ה-package.json נמצא בתיקיית client
+  command = "npm run build"
+  publish = "client/dist"
+
+[context.production.environment]
+  NODE_ENV = "production"

@@ -1,0 +1,9 @@
+# עורך את הבקשות מתוך אתר מבלי לשנות את ה-URL
+/old-page    /new-page    301
+
+# הפניית כתובת URL כלשהי לכתובת אחרת
+/old-path/*    https://www.newdomain.com/:splat    301
+
+# אפשר גם להגדיר הפניות עם פרמטרים של query
+/blog/:slug    /new-blog/:slug    301
+
