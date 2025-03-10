@@ -1,4 +1,33 @@
+# תלות של Node.js
 node_modules/
+ 
+# קבצי בנייה
 dist/
+build/
+
+# קבצי סביבה
 .env
+.env.local
+.env.development.local
+.env.production.local
+.env.test.local
+
+# קובצי מערכת
 .DS_Store
+Thumbs.db
+
+# קבצים של IDE
+.vscode/
+.idea/
+*.log
+
+# קבצים של Git
+.git/
+.gitignore
+
+# קבצי מטמון של TypeScript
+*.tsbuildinfo
+
+# קבצים של Netlify
+.netlify/
+out/

@@ -1,3 +1,4 @@
-export const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "http://localhost:5000";
-export const APP_NAME = import.meta.env.VITE_APP_NAME || "ניהול מתחם מגורים";
-export const ENV = import.meta.env.VITE_ENV || "development";
+export const API_BASE_URL = process.env.REACT_APP_API_BASE_URL || "https://example.com";
+export const APP_NAME = process.env.REACT_APP_APP_NAME || "My App";
+export const ENV = process.env.NODE_ENV || "development";
+export const IS_PRODUCTION = ENV === "production"; 
