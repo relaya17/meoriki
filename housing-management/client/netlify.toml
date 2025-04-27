@@ -1,7 +1,7 @@
 [build]
-  base = "client"  # אם ה-package.json נמצא בתיקיית client
-  command = "npm run build"
+  command = "npm run build --prefix client"
   publish = "client/dist"
 
 [context.production.environment]
   NODE_ENV = "production"
+  API_URL = "https://housing-management-api.herokuapp.com"
